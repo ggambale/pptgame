@@ -50,7 +50,7 @@ function jugar(opcionesId)
         return jugada;
     }
     //Comprobar si el usuario gana.
-    else if(opcionUsuario == 0 && opcionMaquina == 2 || opcionUsuario == 1 && opcionMaquina == 0 || opcionUsuario == 2 && opcionMaquina == 1)
+    else
     {
         //Declarar resultado.
         resultado = "Ganaste";
