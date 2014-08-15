@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bienvenido a PPT Game!</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/pptCode.js"></script>
+</head>
+<body>
+    <main>
+        <h1>PPT Game</h1>
+        <h2>Crees que puedes ganarle a la maquina? Elige una opción!</h2>
+        <div class="opciones">
+            <div><a href="#" title="Piedra" onclick="jugar(0)"><img src="images/piedra.svg" border="0" /></a></div>
+            <div><a href="#" title="Papel" onclick="jugar(1)"><img src="images/papel.svg" border="0" /></a></div>
+            <div><a href="#" title="Tijera" onclick="jugar(2)"><img src="images/tijera.svg" border="0" /></a></div>
+        </div>
+        <div id="jugada"></div>
+        <div id="resultado"></div>
+        <div id="creditos"><small>Desarrollado por Gustavo Gambale.</small></div>
+    </main>
+</body>
+</html>
